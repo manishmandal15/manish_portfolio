@@ -1,0 +1,52 @@
+.section{
+    padding:100px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-size:42px;
+    color:#fff;
+}
+
+.section-title p{
+    color:#94A3B8;
+    margin-top:10px;
+}
+
+.about-content{
+    max-width:900px;
+    margin:auto;
+}
+
+.about-text h3{
+    font-size:34px;
+    margin-bottom:20px;
+}
+
+.about-text p{
+    color:#94A3B8;
+    line-height:1.9;
+    margin-bottom:20px;
+}
+
+.about-points{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    margin-top:40px;
+}
+
+.about-points div{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#fff;
+}
+
+.about-points svg{
+    color:#7C3AED;
+}
